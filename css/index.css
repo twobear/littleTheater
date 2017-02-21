@@ -1,0 +1,329 @@
+
+/*reset*/
+html{-webkit-text-size-adjust: none;}
+html,body, dl, dd, h1, h2, h3, h4, h5, h6, p, form{margin:0;}
+ol,ul,li{margin:0; padding:0;list-style:none;}
+/*input,button,select,textarea{outline:none; padding:0;}*/
+
+img { border:none; }
+em,i,s{ font-style:normal;}
+img { border: 0; -ms-interpolation-mode: bicubic; vertical-align: middle; }
+/* clearfix */
+.clearfix:before, .clearfix:after {content:"";display:table;}
+.clearfix:after{clear:both;overflow:hidden;}
+.clearfix{zoom:1;}
+a{text-decoration: none;}
+body{min-width: 320px;margin: 0;padding: 0;background: #E4E4E4;font-family: microsoft yahei;overflow-x: hidden;
+    moz-user-select: -moz-none;
+    -moz-user-select: none;
+    -o-user-select:none;
+    -khtml-user-select:none;
+    -webkit-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+text-align: center;}
+.fl{float:left;}
+.fr{float:right;}
+header h1{
+margin: 0;
+padding: 0;
+min-height: 80px;
+line-height: 80px;
+text-align: center;
+font-family: microsoft yahei;
+color: #ADADAD;background: #444;
+text-shadow: 0 2px 2px #090909;}
+.container{min-height: 600px;}
+
+
+
+
+footer{
+background: #444;
+height: 200px;
+}
+
+.content{
+	/* width: 100%; */
+	/* height: 100%; */
+	/* padding-bottom: 50px; */
+	text-align: center;
+	/* overflow: hidden; */
+    
+}
+.loadingPage{
+    top: 0;
+    left: 0;
+    position: absolute;
+    z-index: 1000;
+    width: 100%;
+    height: 100%;
+}
+.loadingPageBg{
+    left: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+     
+    opacity: 0.96;
+    background: #000;
+}
+.loadingText{
+    position:relative;
+    margin:20px auto;
+    top: 24%;
+    width: 100px;
+    height:100px;
+    background-color: rgba(207, 204, 204, 0.18);
+    border-radius:12px;
+    overflow:hidden;
+    border:solid 4px #121212;
+    color: #fff;
+    padding: 10px;
+}
+.loadingText p{
+    margin-top: 18px;
+    line-height: 23px;
+}
+.loading{
+	position:relative;
+  
+	margin: 0px auto;
+  
+	top: 24%;
+	width:80%;
+  height:28px;
+  
+	background-color: #000000;
+  border-radius:12px;
+  overflow:hidden;
+  border:solid 4px #121212;
+}
+.loading .circle {
+  width:16px;
+  height:16px;
+  background-color:#86cc01;
+  position:absolute;
+  border-radius:50%;
+  display:inline-block;
+  left:-20px;
+  top:4px;
+}
+.adaptationBox {
+	margin: 0 auto;
+}
+.Page{
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(235, 199, 237, 1);
+}
+.imgnn{
+    position: absolute;
+    right: 5px;
+    width: 40%;
+}
+.answerPage{
+    /* position: absolute; */
+    width: 100%;
+    height: 100%;
+
+    text-align: center;  overflow: hidden;
+}
+.homePage {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(235,199,237,1);
+}
+.title{
+    padding: 10px 12%;
+    width: 76%;
+    text-align: left;
+    line-height: 30px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.btn {
+    /* position: relative; */
+    left: 0;
+    border: none;
+    text-align:center;
+    cursor: pointer;
+    /*padding: 25px 80px;*/
+    margin: 9px auto;
+    width: 80%;
+    line-height: 50px;
+ 　	word-break:break-all; /*支持IE，chrome，FF不支持*/
+　　word-wrap:break-word;/*支持IE，chrome，FF*/
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 600;
+    color: #fff;
+    outline: none;
+    background-color: rgb(182, 109, 165);
+    border-radius:10px;
+    /*-webkit-font-smoothing: antialiased;*/
+
+    display: block;
+}
+.selects {
+    /* position: relative; */
+    /* top: 50%; */
+    width:100%;
+    margin:auto;
+    overflow:hidden;
+    float: left;
+    padding: 15px 0;
+}
+
+.tip{
+    position: absolute;
+    z-index: 400;
+    top: 0;
+    width: 100%;
+}
+.line img {
+   /* height: 60px; */
+}
+.line{
+    position: relative;
+    min-height: 60px;
+    /* line-height:60px
+; */
+    float: left;
+    width: 100%;
+}
+.line .talkBox,.line .talkBox-m{
+     line-height:normal;
+     position: relative;
+     margin: 22px 4px;
+     width: 74%;
+     opacity: 0;
+}
+.tx {
+    margin: 8px;
+    /* float: left; */
+}
+.talkBox{
+	 float: left;
+}
+.talkBox-m{
+   float: right;
+   /* right: 66px; */
+}
+.talkBoxBg,.talkBoxBg-m{
+      border-radius: 4px;
+    background: #D767EF;
+    padding: 9px;
+    margin: 0px 9px;
+    text-align: left;
+　	word-break:break-all; /*支持IE，chrome，FF不支持*/
+　　word-wrap:break-word;/*支持IE，chrome，FF*/
+}
+.talkBoxBg{
+    background: #FA7CBA;
+    float: left;
+}
+.talkBoxBg-m{
+    right: 9px;
+    float: right;
+}
+.diamond,.diamond-m{
+    height: 20px;
+    font-size: 29px;
+    color: #D767EF;
+    position: absolute;
+    overflow: hidden;
+}
+.diamond{
+    left: 0;
+    color:#FA7CBA;
+}
+
+
+.diamond-m{
+    height: 20px;
+    font-size: 29px;
+    color: #D767EF;
+    /* float: left; */
+    /* margin: -20px 0px 0px 0px; */
+    /* height: 100%; */
+    right: 0;
+    position: absolute;
+    overflow: hidden;
+}
+.diamond span,.diamond-m span{
+    height: 40px;
+    line-height: 40px;
+    margin-top: -20px;
+    display: block;
+}
+.diamond-q {
+font-size: 29px;
+color: #FFFFFF;
+left: 28px;
+top: 47px;
+position: absolute;
+overflow: hidden;
+}
+.female{
+    float: left;
+    left:0;
+    height: 60px;;
+}
+.male{
+    float: right;
+    right:0;
+    height: 60px;;
+}
+
+/*  sharepage*/
+.sharePage{
+    position: absolute;
+    z-index: 9999;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: #000;
+    display: none;
+}
+.sharePage img{
+    position: absolute;
+    right: 0;
+}
+.questionBox {
+float: left;
+background: #fff;
+border-radius: 4px;
+margin: 9px;
+min-width: 94%;
+}
+.view {
+/* position: absolute; */
+/* width: 100%; */
+/* height: 100%; */
+/* overflow: hidden; */
+padding-bottom: 22px;
+}
+.cut-off{
+    width: 100%;
+    background: url(../img/line2.png) 0 55% repeat-x;
+    float: left;
+    position: relative;
+}
+.cut-off span{
+    border-radius: 4px;
+    background: #868686;
+    padding: 2px 8px;
+    font-size: 9px;
+    color: #fff;
+}
+.selectItem{
+    background: #FF9E31;
+}
+#anc{position: absolute;}
