@@ -1,5 +1,6 @@
 # littleTheater
-custom  a small theater between two guys~ , have fun!
+可以自定义的两个人对话，或者互动答题.
+配置规则详见config文件
 
 ## pages
 [演示点我](https://twobear.github.io/littleTheater/) 
